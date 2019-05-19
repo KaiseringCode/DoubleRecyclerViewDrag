@@ -7,11 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
-/**
- * Created by wj on 2018/2/24.
- * 长按拖拽
- */
-
 public class ItemGridDragHelperCallBack extends ItemTouchHelper.Callback {
 
     private OnGridItemDragListener mOnGridItemDragListener;
